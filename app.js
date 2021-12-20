@@ -4,6 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const http = require('http');
 const staticBasePath = './www';
+const PORT = process.env.PORT || 5000;
 
 const staticServe = function (req, res) {
     let resolvedBase = path.resolve(staticBasePath);
@@ -23,6 +24,6 @@ const staticServe = function (req, res) {
 
 const httpServer = http.createServer(staticServe);
 
-httpServer.listen(8080, () => {
+httpServer.listen(PORT, () => {
     console.log("server listening on port 8080");
 });
