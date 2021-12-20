@@ -1,0 +1,21 @@
+{
+  "name": "simple-nodejs-1",
+  "version": "1.0.0",
+  "description": "Example with a simple NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErikAndreasOhlsson/simple-nodejs-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErikAndreasOhlsson/simple-nodejs-1/issues"
+  },
+  "homepage": "https://github.com/ErikAndreasOhlsson/simple-nodejs-1#readme",
+  "dependencies": {}
+}
